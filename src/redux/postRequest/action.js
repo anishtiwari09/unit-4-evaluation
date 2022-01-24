@@ -21,3 +21,7 @@ export const getSuccess=(datas)=>({
         datas:datas
     }
 })
+
+export const toggleStatusSuccess=()=>({
+type:actionConstrait.TOGGLE_STATUS_SUCCESS
+})

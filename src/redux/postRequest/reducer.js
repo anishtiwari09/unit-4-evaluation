@@ -45,6 +45,11 @@ export function PostReducer(state=initialState,action){
 
             }
         }
+        case actionConstrait.TOGGLE_STATUS_SUCCESS:{
+            return {
+                ...state
+            }
+        }
         default: {
             return state
         }

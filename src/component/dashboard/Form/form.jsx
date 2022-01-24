@@ -62,7 +62,11 @@ export default function Form()
             amount:datas.amount,
             purpose:datas.purpose
         }
-        dispatch(PostApi(config))
+        dispatch(PostApi(config)).then(()=>{
+            dispatch(getApi(id))
+        })
+       
+        console.log('get')
     }
     useEffect(()=>{
        
@@ -70,7 +74,7 @@ let url='?id='+id
 dispatch(fetchUserInfo(url))
 dispatch(getApi(id))
 
-    },[id])
+    },[])
     if(isLoading)
     return <h3>loading...</h3>
     return <Box sx={{justifyContent:"left"}}>
