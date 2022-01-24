@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "albert sebastian"
+    },
+    {
+      "id": 2,
+      "name": "Aman Vats"
+    },
+    {
+      "id": 3,
+      "name": "Nrupal Dev"
+    },
+    {
+      "id": 4,
+      "name": "Yogesh Bhat"
+    },
+    {
+      "id": 5,
+      "name": "Manideep"
+    }
+  ],
+  "userInfo": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "userId": "1",
+      "date": 1642809600000,
+      "amount": "055",
+      "status": "pending",
+      "id": 3,
+      "purpose": "internet"
+    },
+    {
+      "userId": "1",
+      "date": 1642809600000,
+      "amount": "033",
+      "status": "pending",
+      "id": 4,
+      "purpose": "internet"
+    },
+    {
+      "purpose": "internet",
+      "userId": "2",
+      "date": 1642118400000,
+      "amount": "1200",
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "purpose": "internet",
+      "userId": "2",
+      "date": 1642809600000,
+      "amount": "1800",
+      "status": "pending",
+      "id": 6
+    }
+  ]
+}
